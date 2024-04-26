@@ -1,0 +1,31 @@
+# Apple debris
+.DS_Store*
+.Spotlight-*
+.Trashes
+.fseventsd
+Thumbs.db
+
+# Caches
+*.egg
+*.egg-info
+*.py[cod]
+*.so
+.cache/
+.pytest_cache/
+.tox/
+.venv/
+__pycache__/
+
+# Data
+/data/clean/*
+!/data/clean/energy.csv
+!/data/clean/iris.csv
+/data/dirty/*
+!/data/dirty/energy.csv
+
+# Jupyter secrets
+.ipynb_checkpoints/
+jupyter_notebook_config.*
+jupyter_server_config.*
+/etc/ipython
+/etc/jupyter
